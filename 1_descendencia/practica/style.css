@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(255, 193, 193);
+}
+
+#pregunta1{
+    background-color: lightblue;
+}
+
+.pregunta2{
+    background-color: lightcyan;
+}
+
+#pregunta3{
+    color: rgb(255, 0, 0);
+}
+
+.pregunta-3{
+    background-color: red;  
+}
+
+.pregunta4{
+    color: aqua;
+}
+
+.pregunta6{
+    background-color: chocolate;
+}
+
+.pregunta7{
+    color: white;
+}
+
+.pregunta8{
+    color:darkblue;
+}
+
