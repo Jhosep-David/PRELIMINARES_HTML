@@ -1,0 +1,96 @@
+.mainTitle{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#globalNav .mainTitle {
+    color: blueviolet;
+}
+
+.contenedor .mainTitle{
+    color: red;
+}
+
+/*incluira un color a la rtiqueta de h2 que este contenida en el footer*/
+footer h2{
+    color: green;
+}
+
+/*selectores hijos*/
+footer > p{
+    background-color: pink;
+}
+
+/*cambia el color del developer*/
+
+footer > p > span{
+    color: yellowgreen;
+}
+
+/*Selectores de hermandad*/
+
+footer h2 ~ p{
+   color: blue;
+   text-decoration: underline;
+}
+
+/*hermanos adyacentes*/
+
+.developer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+ footer .developer +p{
+    background-color: lightskyblue;
+}
+
+/*aplicar color al button */
+
+main button{
+    background-color: blue;
+    color: white;
+}
+
+/*selectores de atributos*/
+
+input[type="text"]{
+    border-bottom: firebrick 2px dotted;
+    border-top: 4px solid green;
+    border-left: 4px solid green;
+    border-right: 4px solid aqua;
+}
+
+/*selectores de atributo con valor*/
+
+.contenedor input[type="password"]{
+    border-left: violet 2px solid;
+    border-right: teal 4px solid;
+}
+
+/*selectores de atributo con valor al final*/
+/*enlaces con dominios .org*/
+
+a[href^="aprendices"]{
+    color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
